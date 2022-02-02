@@ -1,7 +1,7 @@
 import { Server } from 'socket.io'
 
 const io = new Server()
-io.listen(5000, {
+io.listen(80, {
   cors: {
     origin: '*',
     methods: ['GET', 'POST']
